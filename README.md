@@ -1,7 +1,12 @@
  🚀 Git & GitHub Learning Journey
 
+🧠 Purpose of this Repo
+
+This repository documents my journey of learning Git and GitHub step by step.
+
 📌 What I’ve Learned
 
+Day 1:
 * Installed and configured Git on macOS
 * Connected Git with GitHub
 * Basic terminal commands: `cd`, `mkdir`, `ls`, `ls -a`
@@ -13,11 +18,3 @@
   * `git add`
   * `git commit`
   * `git push`
-
-🧠 Purpose of this Repo
-
-This repository documents my journey of learning Git and GitHub step by step.
-
-🔄 Progress
-
-* Day 1: Setup & installation, Basic commands 
