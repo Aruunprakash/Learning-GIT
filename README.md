@@ -12,9 +12,17 @@ Day 1:
 * Basic terminal commands: `cd`, `mkdir`, `ls`, `ls -a`
 * Git commands:
 
-  * `git init`
   * `git clone`
   * `git status`
   * `git add`
   * `git commit`
+
+Day 2:
+
   * `git push`
+    * `git push -u origin main`
+  * `git init:-`
+    * `git remote add origin`
+    * `git remote -v` #version check
+    * `git branch`
+
