@@ -25,5 +25,5 @@ Day 2:
     * `git remote -v` #version check
     * `git branch`
 
-I faced certain issue as I cloned again on top of an existing remote repo , i.e already pulled. Worked through it and understood the core concept more clearly.
-
+NOTE: 
+I faced certain issue as I cloned again on top of an existing remote repo , i.e already pulled. Worked through it and understood the core ccd oncept more clearly.
