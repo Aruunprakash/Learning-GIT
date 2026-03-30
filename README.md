@@ -18,7 +18,6 @@ Day 1:
   * `git commit`
 
 Day 2:
-
   * `git push`
     * `git push -u origin main`
   * `git init:-`
