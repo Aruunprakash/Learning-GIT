@@ -6,7 +6,8 @@ This repository documents my journey of learning Git and GitHub step by step.
 
 📌 What I’ve Learned
 
-### 📅 Day 1
+
+### 📅 Day 1:
 * Installed and configured Git on macOS
 * Connected Git with GitHub
 * Basic terminal commands: `cd`, `mkdir`, `ls`, `ls -a`
@@ -17,7 +18,8 @@ This repository documents my journey of learning Git and GitHub step by step.
   * `git add`
   * `git commit`
 
-### 📅 Day 2
+### 📅 Day 2:
+
   * `git push`
     * `git push -u origin main`
   * `git init:-`
@@ -59,3 +61,4 @@ I faced certain issue as I cloned again on top of an existing remote repo , i.e 
 
         * `git branch -d branch-name`
         * Note: Cannot delete a branch while currently on it
+
