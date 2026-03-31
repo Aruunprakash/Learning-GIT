@@ -6,6 +6,7 @@ This repository documents my journey of learning Git and GitHub step by step.
 
 📌 What I’ve Learned
 
+
 ### 📅 Day 1:
 * Installed and configured Git on macOS
 * Connected Git with GitHub
@@ -18,6 +19,7 @@ This repository documents my journey of learning Git and GitHub step by step.
   * `git commit`
 
 ### 📅 Day 2:
+
   * `git push`
     * `git push -u origin main`
   * `git init:-`
