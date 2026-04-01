@@ -62,3 +62,36 @@ I faced certain issue as I cloned again on top of an existing remote repo , i.e 
         * `git branch -d branch-name`
         * Note: Cannot delete a branch while currently on it
 
+### 📅 Day 4
+
+* Undoing Changes:
+
+  * Case 1: Staged changes (added but not committed)
+
+    * `git reset <filename>`
+
+  * Case 2: Undo last commit
+
+    * `git reset HEAD~1`
+
+  * Case 3: Undo multiple commits
+
+    * Use `git log` to get commit hash
+    * Undo changes:
+
+      * `git reset <commit-hash>`
+      * `git reset --hard <commit-hash>` (removes changes completely)
+
+---
+
+* Fork:
+
+  * Fork is a copy of a repository
+  * It creates a new repository under your account
+  * It shares code and visibility with the original (upstream) repository
+  * Commonly used for:
+
+    * Contributing to open-source projects
+    * Making changes without affecting the original repository
+
+
