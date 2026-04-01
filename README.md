@@ -82,8 +82,6 @@ I faced certain issue as I cloned again on top of an existing remote repo , i.e 
       * `git reset <commit-hash>`
       * `git reset --hard <commit-hash>` (removes changes completely)
 
----
-
 * Fork:
 
   * Fork is a copy of a repository
