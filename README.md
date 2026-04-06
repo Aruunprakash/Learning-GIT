@@ -92,5 +92,19 @@ I faced certain issue as I cloned again on top of an existing remote repo , i.e 
     * Contributing to open-source projects
     * Making changes without affecting the original repository
 
+## 📁 Organizing Files in GitHub (Using Git)
+
+### 🧠 Concept
+- GitHub repositories are organized using **folders (directories)**
+- Git does **not track empty folders**
+- A folder exists only when it contains files
+
+# query to create folder and adding files to it
+
+mkdir MySQL
+mv queries.sql MySQL/
+git add .
+git commit -m "Added MySQL folder"
+git push
 
 
