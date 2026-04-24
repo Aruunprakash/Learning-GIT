@@ -101,10 +101,10 @@ I faced certain issue as I cloned again on top of an existing remote repo , i.e 
 
 # query to create folder and adding files to it
 
-mkdir MySQL
-mv queries.sql MySQL/
-git add .
-git commit -m "Added MySQL folder"
-git push
+- mkdir MySQL
+- mv queries.sql MySQL/
+- git add .
+- git commit -m "Added MySQL folder"
+- git push
 
 
