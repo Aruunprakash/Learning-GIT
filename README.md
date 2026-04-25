@@ -1,110 +1,129 @@
- 🚀 Git & GitHub Learning Journey
+# 🚀 Git & GitHub Learning Journey
 
-🧠 Purpose of this Repo
+## 🧠 Purpose of this Repo
 
 This repository documents my journey of learning Git and GitHub step by step.
 
-📌 What I’ve Learned
+---
 
+## 📌 What I’ve Learned
 
 ### 📅 Day 1:
+
 * Installed and configured Git on macOS
 * Connected Git with GitHub
 * Basic terminal commands: `cd`, `mkdir`, `ls`, `ls -a`
-* Git commands:
 
-  * `git clone`
-  * `git status`
-  * `git add`
-  * `git commit`
+**Git commands:**
+
+* `git clone`
+* `git status`
+* `git add`
+* `git commit`
+
+---
 
 ### 📅 Day 2:
 
-  * `git push`
-    * `git push -u origin main`
-  * `git init:-`
-    * `git remote add origin`
-    * `git remote -v` #version check
-    * `git branch`
+* `git push`
+* `git push -u origin main`
 
-NOTE: 
-I faced certain issue as I cloned again on top of an existing remote repo , i.e already pulled. Worked through it and understood the core ccd oncept more clearly.
+**Git init & remote:**
+
+* `git init`
+* `git remote add origin`
+* `git remote -v` (version check)
+* `git branch`
+
+**Note:**
+Faced issues by cloning over an existing repo. Understood the core concept better after fixing it.
+
+---
 
 ### 📅 Day 3
 
-* Workflow:
+**Workflow:**
 
-  * Local Git process:
+* Create repository → Clone → Make changes → Add → Commit → Push
 
-    * Create repository → Clone → Make changes → Add → Commit → Push
+**Git Branches:**
 
-* Git Branches:
+* Used when multiple people work on the same project
 
-  * Used when multiple people work on the same project
+**Branch Commands:**
 
-* Branch Commands:
+* `git branch` (check current branch)
 
-  * `git branch` (check current branch)
+* `git branch -a` (view all branches: local + remote)
 
-    * Default branch is `main` or `master`
+* Default branch is `main` or `master`
 
-      * Rename branch:
+* Rename branch:
 
-        * `git branch -m main`
-      * Switch to another branch:
+  * `git branch -m main`
 
-        * `git checkout branch-name`
-      * Create a new branch:
+* Switch to another branch:
 
-        * `git checkout -b new-branch`
-      * Delete a branch:
+  * `git checkout branch-name`
 
-        * `git branch -d branch-name`
-        * Note: Cannot delete a branch while currently on it
+* Create a new branch:
+
+  * `git checkout -b new-branch`
+
+* Delete a branch:
+
+  * `git branch -d branch-name`
+  * Note: Cannot delete a branch while currently on it
+
+---
 
 ### 📅 Day 4
 
-* Undoing Changes:
+**Undoing Changes:**
 
-  * Case 1: Staged changes (added but not committed)
+* Case 1: Staged changes (added but not committed)
 
-    * `git reset <filename>`
+  * `git reset <filename>`
 
-  * Case 2: Undo last commit
+* Case 2: Undo last commit
 
-    * `git reset HEAD~1`
+  * `git reset HEAD~1`
 
-  * Case 3: Undo multiple commits
+* Case 3: Undo multiple commits
 
-    * Use `git log` to get commit hash
-    * Undo changes:
+  * Use `git log` to get commit hash
+  * `git reset <commit-hash>`
+  * `git reset --hard <commit-hash>` (removes changes completely)
 
-      * `git reset <commit-hash>`
-      * `git reset --hard <commit-hash>` (removes changes completely)
+---
 
-* Fork:
+**Fork:**
 
-  * Fork is a copy of a repository
-  * It creates a new repository under your account
-  * It shares code and visibility with the original (upstream) repository
-  * Commonly used for:
+* Fork is a copy of a repository
+* Creates a new repo under your account
+* Shares code with the original (upstream) repo
 
-    * Contributing to open-source projects
-    * Making changes without affecting the original repository
+**Used for:**
+
+* Contributing to open-source
+* Making changes without affecting original repo
+
+---
 
 ## 📁 Organizing Files in GitHub (Using Git)
 
 ### 🧠 Concept
-- GitHub repositories are organized using **folders (directories)**
-- Git does **not track empty folders**
-- A folder exists only when it contains files
 
-# query to create folder and adding files to it
+* GitHub repos are organized using folders
+* Git does not track empty folders
+* A folder exists only when it contains files
 
-- mkdir MySQL
-- mv queries.sql MySQL/
-- git add .
-- git commit -m "Added MySQL folder"
-- git push
+### 📌 Commands
 
-
+```bash
+mkdir MySQL
+mv queries.sql MySQL/
+git add .
+git commit -m "Added MySQL folder"
+git push
+```
